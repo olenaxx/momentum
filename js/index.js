@@ -23,7 +23,7 @@ function playAudio() {
   if (!isPlay) {
     isPlay = true;
     audio.src = playList[playNum].src;
-    console.log('playNum', playNum);
+    // console.log('playNum', playNum);
     playItem[playNum].classList.toggle('item-active')
     playBtn.classList.add('pause');
     audio.currentTime = 0; 
@@ -53,7 +53,6 @@ playItems()
 
     isPlay = true;
     audio.src = playList[playNum].src;
-    console.log('playNum', playNum);
     playItem[playNum].classList.add('item-active')
     playBtn.classList.add('pause');
     audio.currentTime = 0; 
@@ -71,7 +70,6 @@ function playsPrev() {
 
     isPlay = true;
     audio.src = playList[playNum].src;
-    console.log('playNum', playNum);
     playItem[playNum].classList.add('item-active')
     playBtn.classList.add('pause');
     audio.currentTime = 0; 

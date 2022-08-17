@@ -221,8 +221,3 @@ async function getQuotes() {
 changeQuote.addEventListener('click', getQuotes)
 document.addEventListener("DOMContentLoaded", getQuotes);
 
-
-/*----------- audio player ----------------*/
-  
-//   import playList from 'playList';
-// console.log(playList);
